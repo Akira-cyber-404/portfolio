@@ -9,7 +9,7 @@
             margin: 0;
             font-family: Arial, sans-serif;
             color: white;
-            background: url("background.jpg") no-repeat center center fixed;
+            background: url("https://raw.githubusercontent.com/Akira-cyber-404/portfolio/749ff73af77dbdd7b95b5f30944c75b1a41b10bc/background.jpg") no-repeat center center fixed;
             background-size: cover;
         }
 
