@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background: url("https://github.com/Akira-cyber-404/portfolio/blob/main/background.jpg?raw=true") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.header {
+    background: rgba(154, 177, 235, 0.8);
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.main {
+    display: flex;
+}
+
+
+.content {
+    width: 70%;
+    padding: 40px;
+}
+
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background: rgba(156, 155, 155, 0.7);
+    min-height: 100vh;
+    text-align: center;
+}
+
+.sidebar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(3, 3, 3);
+}
+
+
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+}
+
+
+.task {
+    margin-bottom: 30px;
+}
+
+
+.task-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.task-images img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.insight {
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(0,188,212,0.2);
+    border-left: 4px solid #00bcd4;
+}
+
+.task a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.task a:hover {
+    background: #0097a7;
+}
+
+
+.footer {
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+    My Data Analysis Portfolio
+</div>
+
+<div class="main">
+
+ 
+    <div class="content">
+
+    
+        <div class="section">
+            <h2>About Me</h2>
+            <p>Hello! I am Ranniel Tuazon, a Data Analysis student.</p>
+            <p>I'm a very active person.</p>
+            <p>A Computer science student.</p>
+            <p>and I love too travel.</p>
+        </div>
+
+    
+        <div class="section">
+            <h2>My Tasks</h2>
+
+            <div class="task">
+                <h3>Practice Task 2 – Data Analysis</h3>
+
+                <div class="task-images">
+                    <img src="https://github.com/Akira-cyber-404/portfolio/blob/main/midterm%20tas%202.png?raw=true">
+                </div>
+
+                <a href="https://github.com/Akira-cyber-404/portfolio/blob/main/PracticeTask2_Tuazon_Ranniel.xlsx%20-%20Sheet2.pdf" target="_blank">
+                    View Document
+                </a>
+
+                <div class="insight">
+                    Insight: Learned how to analyze datasets and identify patterns.
+                </div>
+            </div>
+
+            <div class="task">
+                <h3>Midterm Task 1 – Data Cleaning and Modeling</h3>
+
+                <div class="task-images">
+                    <img src="https://github.com/Akira-cyber-404/portfolio/blob/main/MIDTERM%20TASK%201%20CLEAN%20DATA.png?raw=true">
+                    <img src="https://github.com/Akira-cyber-404/portfolio/blob/main/Revenuemidterm%20task%201.png?raw=true">
+                    <img src="https://github.com/Akira-cyber-404/portfolio/blob/main/model%20dim%20midterm%20task%201.png?raw=true">
+                    <img src="https://github.com/Akira-cyber-404/portfolio/blob/main/color%20midterm%20task%201.png?raw=true">
+                    <img src="https://github.com/Akira-cyber-404/portfolio/blob/main/state%20midterm%20task%201.png?raw=true">
+                    <img src="https://github.com/Akira-cyber-404/portfolio/blob/main/country%20midterm%20task%201.png?raw=true">
+                    <img src="https://github.com/Akira-cyber-404/portfolio/blob/main/erd%20midtermtask%201.png?raw=true">
+                </div>
+
+                <div class="insight">
+                    Insight: Improved skills in data cleaning, structuring, and creating ERD models.
+                </div>
+            </div>
+
+            <div class="task">
+                <h3>Midterm Task 2 – Data Preparation</h3>
+
+                <div class="task-images">
+                    <img src="https://github.com/Akira-cyber-404/portfolio/blob/main/midterm%20tas%202.png?raw=true">
+                </div>
+
+                <div class="insight">
+                    Insight: Learned how to prepare datasets for real-world analysis.
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+   
+    <div class="sidebar">
+        <img src="https://github.com/Akira-cyber-404/portfolio/blob/main/profile.jpg?raw=true">
+        <h2>Ranniel Tuazon</h2>
+        <p>Data Analysis Student</p>
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2026 Ranniel Tuazon | Portfolio
+</div>
+
+</body>
+</html>
